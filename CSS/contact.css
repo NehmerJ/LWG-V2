@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed&display=swap');
+
+*, *::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+a {
+	font-weight: 700;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	position: relative;
+  	color: #333;
+  	padding: 10px 0px;
+  	letter-spacing: 1px;
+  	font-size: 12.5px;
+}
+
+.formContainer {
+	background-image: url(../images/empty-asphalt-road-between-trees-2682122.jpg);
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	height: 100%;
+}
+
+.formStyle {
+	background-color: rgba(256, 256, 256,.6);
+	box-shadow: 2px 2px 5px 3px #ccc;
+	border-radius: 5px;
+	padding: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+}
+
+input[type=text], textarea, input[type=email] {
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	width: 300px;
+}
+
+button {
+	padding: 10px 20px;
+	font-weight: 700;
+	background-color: transparent;
+	border: 2px solid #333;
+}
+
+button:hover {
+	background-color: #333;
+	color: white;
+}
+
+.footerDiv {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 12px;
+
+}
+
+p a {
+  color: white;
+  font-size: 12px;
+}
+
+p a:hover {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
