@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+*, *::before
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+a {
+	font-weight: 700;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	position: relative;
+  	color: #333;
+  	padding: 10px 0px;
+  	letter-spacing: 1px;
+  	font-size: 12.5px;
+}
+
+
+.topSection {
+	height: 75%;
+	background-image: url(../images/beverage-caffeine-coffee-cup-606542.jpg);
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.topTitle {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 100px;
+	text-decoration: underline;
+	color: white;
+	text-shadow: 1px 1px 2px #000;
+}
+
+.subOne {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 2rem;
+
+}
+
+.subOneTitle {
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.subText {
+	font-size: 18px;
+	max-width: 1100px;
+
+
+}
+
+.subGrid {
+	margin: auto;
+	overflow: auto;
+	padding: 2rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 2rem;
+	margin-bottom: 2rem;
+}
+
+.rmLink {
+	color: black;
+}
+
+.rmLink:hover {
+	color: black;
+}
+
+.textTitle {
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+
+.text {
+	text-align: center;
+}
+
+.customBtn {
+	background-color: #333;
+	padding: .8rem 1.8rem;
+	color: white;
+	margin-top: 2rem;
+	cursor: pointer;
+	border: none;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.customBtn:hover {
+	background-color: #000;
+}
+
+img {
+	width: 100%;
+}
+
+.subDivider {
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../images/photo-of-person-s-open-hands-2258248.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;	
+}
+
+.dividerTitle {
+	font-family: 'Oswald', sans-serif;
+	font-size: 70px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.subTwo {
+	padding: 100px 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sect {
+	max-width: 1100px;
+	font-size: 18px;
+}
+
+.textTitle {
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.cardContainer {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	padding: 100px 2rem;
+	text-align: center;
+}
+
+.card-1 {
+	flex: .25;
+	padding: 50px 2rem;
+	background-color: #f1f1f1;
+}
+
+.card-2 {
+	flex: .25;
+	padding: 50px 2rem;
+}
+
+.card-3 {
+	flex: .25;
+	padding: 50px 2rem;
+	background-color: #f1f1f1;
+}
+
+.cardTitle {
+	font-family: 'Comic Neue', cursive;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.cardText {
+}
+
+.cardBtn {
+	padding: 10px 2rem;
+	background-color: transparent;
+	border: 2px solid #000;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+.cardBtn:hover {
+	background-color: #000;
+	color: white;
+}
+
+.footerDiv {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 12px;
+
+}
+
+p a {
+  color: white;
+  font-size: 12px;
+}
+
+p a:hover {
+  color: white;
+}
+
+@media only screen and (max-width: 970px) {
+	.subGrid, .cardContainer {
+		display: block;
+	}
+
+	.text {
+		padding-top: 30px;
+	}
+}
+
+@media only screen and (max-width: 660px) {
+	.topTitle {
+		font-size: 80px;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.topTitle {
+		font-size: 60px;
+	}
+
+	.subOneTitle {
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 390px) {
+	.topTitle {
+		font-size: 50px;
+	}
+
+	.subOneTitle {
+		font-size: 
+	}
+}
