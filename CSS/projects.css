@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed&display=swap');
+
+*, *::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	background-color: #f9f9f9;
+}
+
+a {
+	font-weight: 700;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	position: relative;
+  	color: #333;
+  	padding: 10px 0px;
+  	letter-spacing: 1px;
+  	font-size: 12.5px;
+}
+
+.topSection {
+	height: 75%;
+	background-image: url(../images/writing-notes-idea-class-7103.jpg);
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.topTitle {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 130px;
+	text-decoration: underline;
+	color: white;
+	padding: 2rem;
+	background-color: rgba(0,0,0,.3);
+}
+
+.subOne {
+	max-width: 1100px;
+	margin: auto;
+	overflow: auto;
+	padding: 100px 2rem;
+}
+
+.customButton {
+	background-color: #333;
+	padding: .8rem 1.8rem;
+	color: white;
+	margin-top: 2rem;
+	cursor: pointer;
+	border: none;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.customButton:hover {
+	background-color: #000;
+}
+
+img {
+	width: 100%;
+}
+
+form {
+	text-align: center;
+}
+
+.card {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 2rem;
+	background-color: #f1f1f1;
+	margin-bottom: 2rem;
+}
+
+.textTitle {
+	margin-bottom: 2rem;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-align: center;
+}
+
+.img-1 {
+	height: 600px;
+}
+
+.img-2 {
+	height: 420px;
+}
+
+.img-3 {
+	height: 500px;
+
+}
+
+.img-4 {
+	height: 400px;
+}
+
+.text {
+	padding: 2rem;
+	font-size: 18px;
+}
+
+.card:nth-child(even) img {
+	-webkit-order: 2;
+	-moz-order: 2;
+	-ms-order: 2;
+	-o-order: 2;
+	order: 2;
+}
+
+.footerDiv {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 12px;
+
+}
+
+p a {
+  color: white;
+  font-size: 12px;
+}
+
+p a:hover {
+  color: white;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+	.card {
+		display: block;
+	}
+
+	.topTitle {
+		font-size: 100px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.topTitle {
+		font-size: 80px;
+		background-color: rgba(0,0,0,.3);
+		padding: 2rem;
+	}
+
+	.topSection {
+		background-image: url(../images/black-pen-on-white-writing-spring-notebook-between-white-163187.jpg);
+		
+	}
+}
+
+@media only screen and (max-width: 410px) {
+	.topTitle {
+		font-size: 60px;
+	}
+}
