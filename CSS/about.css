@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+a {
+	font-weight: 700;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	position: relative;
+  	color: #333;
+  	padding: 10px 0px;
+  	letter-spacing: 1px;
+  	font-size: 12.5px;
+}
+
+
+.topSection {
+	height: 75%;
+	background-image: url(../images/HPortrait.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.topTitle {
+	font-family: 'Bebas Neue' , cursive;
+	color: white;
+	font-size: 80px;
+}
+
+.article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0 30px 20px;
+
+}
+
+.fontTitle {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+.fontSize {
+	font-size: 30px;
+}
+
+.one {
+	box-shadow: 2px 2px 5px 3px lightgrey;
+	padding: 20px 50px 20px 50px;
+	margin-right: 20px;
+
+}
+
+.sectTitle {
+	text-align: center;
+	color: black;
+	padding:20px 20px 20px 20px;
+}
+
+.subTitle {
+	text-align: center;
+	color: #b3b3b3;
+}
+
+.subTitle:hover {
+	color: #000000;
+}
+
+.article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 50px;
+}
+
+.articleTile {
+	background-color: #f1f1f1;
+	margin-left: 0px;
+	flex: .50;	
+}
+
+.articleTitle {
+	font-family: 'Oswald', sans-serif;
+	color: #000000;
+	font-size: 40px;
+	text-align: center;
+	flex: 1;
+
+}
+
+.articleText {
+	font-size: 18px;
+}
+
+.midArticle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+	padding: 50px 0 30px 0;
+	flex-wrap: wrap;
+}
+
+.three {
+	order: 2;
+	box-shadow: 2px 2px 5px 3px lightgrey;
+	padding: 20px 50px 20px 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+.four {
+	flex: .50;
+	order: 1;
+	background-color: #f1f1f1;
+	padding: 30px 20px 30px 20px;
+	text-align: center;
+}
+
+.subDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+	padding: 0 0 50px 0;
+	flex-wrap: wrap;
+
+}
+
+.five {
+	order: 2;
+	padding: 20px 200px 20px 180px;
+	margin-left: 52px;
+	margin-right: 20px;
+	flex: wrap;
+}
+
+.subArticle {
+	flex: .5;
+	order: 1;
+	background-color: #f1f1f1;
+	padding: 30px 20px 30px 20px;
+	margin: -10 20px -15 30px;
+	text-align: center;
+
+}
+
+.articleText span {
+	font-weight: bold;
+}
+
+.lastArticle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0 50px 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  max-width: 1100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgs {
+	border-radius: 80px;
+}
+
+.img-2, .img-4 {
+	margin-top: 30px;
+}
+
+.imageText {
+	text-align: center;
+}
+
+.imageName {
+	font-weight: 700;
+	font-size: 17px;
+}
+
+.padding {
+	padding: 50px 2rem;
+	text-align: center;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.footerDiv {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 12px;
+
+}
+
+p a {
+  color: white;
+  font-size: 12px;
+}
+
+p a:hover {
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+	.four, .subArticle, .articleTile {
+		flex-basis: 100%;
+	}
+
+	.four {
+		order: 3;
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (max-width: 910px) {
+	.topSection {
+		background-image: url(../images/007.jpg);
+		
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.one {
+		margin-bottom: 30px;
+	}
+
+	.column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
