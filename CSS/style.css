@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed&display=swap');
+
+
+*, *::before,
+*::after {
+	padding: 0;
+	margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+a {
+	font-weight: 700;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	position: relative;
+  	color: #333;
+  	padding: 10px 0px;
+  	letter-spacing: 1px;
+  	font-size: 12.5px;
+}
+
+.topSection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  height: 100%;
+}
+
+.topVideo {
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -99;
+  position: fixed;
+  top: -10;
+  right: 0;
+
+}
+
+.sectOne {
+  padding: 100px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: white;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-half {
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  -o-flex: 1;
+  flex: 1;
+  background-image: url(../images/001.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 300px;
+}
+
+.right-half {
+  background-color: #f1f1f1;
+  -webkit-flex: .5;
+  -moz-flex: .5;
+  -ms-flex: .5;
+  -o-flex: .5;
+  flex: .5;
+  padding: 50px 0px;
+}
+
+.rightTitle {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Oswald',sans-serif;
+}
+
+.rightText {
+  font-size: 18px;
+  padding: 0 50px;
+  text-align: center;
+}
+
+.customButton {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid #333;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.customButton:hover {
+  background-color: #333;
+  color: #f1f1f1;
+
+}
+
+.sectTwo {
+  padding: 150px;
+  background-image: url(../images/00000IMG_00000_BURST20190321104513250_COVER.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.cardOne {
+  -webkit-flex: .25;
+  -moz-flex: .25;
+  -ms-flex: .25;
+  -o-flex: .25;
+  flex: .25;
+  padding: 30px;
+  background-color: rgba(265, 256, 256, .8);
+  text-align: center;
+}
+
+.cardOne:hover, .cardTwo:hover {
+  background-color: white;
+}
+
+.cardTitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cardTwo {
+  -webkit-flex: .25;
+  -moz-flex: .25;
+  -ms-flex: .25;
+  -o-flex: .25;
+  flex: .25;
+  padding: 30px;
+  background-color: rgba(256, 256, 256, .8);
+  text-align: center;
+}
+
+.subSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 30px;
+}
+
+.subTitle {
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.subText {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 50px;
+  background-color: #f1f1f1;
+}
+
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+} 
+
+.containerGrid {
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+align-items: stretch;
+}
+
+.tile {
+  padding: 4px;
+}
+
+.lastSect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 2rem;
+  background-image: url(../images/people-coffee-meeting-team-7096.jpg);
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.lastText {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 1px 1px 2px #333;
+  background-color: rgba(0,0,0,.5);
+  padding: 2rem;
+}
+
+.btn {
+  padding: 10px 2rem;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.footerDiv {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 12px;
+
+}
+
+p a {
+  color: white;
+  font-size: 12px;
+}
+
+p a:hover {
+  color: white;
+}
+
+@media only sreen and (max-width: 1000px) {
+  .image-gallery {
+    grid-template-areas: 
+    'img-1 img-1 img-1'
+    'img-1 img-1 img-1'
+    'img-2 img-2 img-2'
+    'img-3 img-3 img-3'
+    'img-4 img-4 img-4'
+    'img-4 img-4 img-4';
+  }  
+
+  .image-gallery a {
+    height: 10rem;
+  }
+
+  .img-1, .img-2, .img-3, .img-4 {
+    min-height: 20.63rem;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .right-half {
+    margin-top: 50px;
+    flex-basis: 75%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .right-half {
+    padding: 50px 10px 50px 10px;
+  }
+
+  .rightTitle {
+    font-size: 20px;
+  }
+
+  .rightText {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1406px) {
+  .topSection {
+    height: 80%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .lastText {
+    font-size: 30px;
+  }
+
+  .btn {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1087px) {
+  .topSection {
+    height: 60%;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .topSection {
+    height: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .left-half {
+    padding: 200px;
+  }
+
+  .right-half {
+    flex-basis: 100%;
+  }
+}
+
+@media only screen and (max-width: 684px) {
+  .cardTwo {
+    margin-top: 50px;
+    padding: 20px 55px;
+  }
+
+  .sectTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .topSection {
+    height: 30%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .left-half {
+    padding: 150px;
+  }
