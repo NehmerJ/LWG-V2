@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed&display=swap');
+
+*, *::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+a {
+  font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    color: #333;
+    padding: 10px 0px;
+    letter-spacing: 1px;
+    font-size: 12.5px;
+}
+
+.fullPage {
+  background-image: url(../images/lighted-building-near-body-of-water-at-nighttime-167705.jpg);
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 2rem;
+}
+
+.title {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+
+.row {
+  text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    max-width: 1100px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+.btn {
+  padding: 10px 2rem;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+      flex: 50%;
+      max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+      flex: 100%;
+      max-width: 100%;
+  }
+}
+
+.footerDiv {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+p a {
+    color: white;
+    font-size: 12px;
+}
+
+p a:hover {
+  color: white;
+}
