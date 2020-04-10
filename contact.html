@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/contact.css">
+	<script src="https://kit.fontawesome.com/e0990894da.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+		<nav class="navbar is-fixed-top is-dark" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+  	<img class="navbar-item" src="images/LevelswithGodblue (logo)_edited.webp" style="color: white; width: 50px; height: 50px;">
+    <a class="navbar-item" href="https://www.facebook.com/jack.nehmer"><i class="fab fa-facebook-square fa-2x"style="color:#3b5998;" ></i></a>
+  	<a class="navbar-item" href="https://www.instagram.com/levelswithgod/?hl=en"><i class="fab fa-instagram fa-2x" style="color: #231F20;"></i></a>
+  	<a class="navbar-item" href="https://www.youtube.com/channel/UCWdFeBcbk6d3VPTeq67Li9w"><i class="fab fa-youtube fa-2x" style="color: #ED3833;"></i></a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item customFont" href="index.html">
+        Home
+      </a>
+
+      <a class="navbar-item customFont" href="teachings.html">
+        Teachings
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable	">
+        <a class="navbar-link is-arrowless customFont" href="ourministries.html">
+          Our Ministries
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item customFont" href="projects.html">
+            Projects
+          </a>
+        </div>
+      </div>
+
+      
+    <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link is-arrowless customFont" href="takeaction.html">
+          Take Action
+        </a>
+
+	      	<div class="navbar-dropdown">
+	      		<a class="navbar-item" href="freegift.html">
+	      		Free Gift	
+	      		</a>
+	     	</div>
+  	</div>
+
+  	<a class="navbar-item customFont" href="about.html">
+      	About Us
+      </a>
+
+    <a class="navbar-item customFont" href="contact.html">
+      	Contact Us
+    </a>
+    </div>
+  </div>
+</nav>	
+
+<div class="formContainer">
+	<form class="formStyle" method="post" action="https://formspree.io/xeqlgwop">
+		<fieldset>
+			<label for="name">Name</label> <br>
+			<div class="control">	
+				<input type="text" id="name" placeholder="e.g. John Doe" name="name" required> <br> <br>
+			</div>
+				<label for="email">Email</label> <br>
+			<div class="control">
+				<input type="email" id="email" placeholder="e.g. johndoe@gmail.com" name="email" required><br> <br>
+			</div>
+			<label for="subject">Message</label>
+			<div class="control">
+				<textarea id="message" rows="10" cols="30" placeholder="Message" name="message" required></textarea>
+			</div>
+			<br>
+			<button type="submit">Contact Us</button>
+		</fieldset>
+	</form>
+</div>
+
+
+<footer>
+  <div class="footerDiv">
+    <p class="customFooter"> &copy; 2020 www.levelswithgod.com <br>
+      Discipling Christians for God's Kingdom <br>
+      info@levelswithgod.com <br> <br>
+      <a href="https://https://www.facebook.com/jack.nehmer"><i class="fab fa-facebook-square fa-3x"style="color:#3b5998;"></i></a>
+      <a href="https://www.instagram.com/levelswithgod/?hl=en"><i class="fab fa-instagram fa-3x" style="color: #231F20;"></i></a>
+      <a href="https://www.youtube.com/channel/UCWdFeBcbk6d3VPTeq67Li9w"><i class="fab fa-youtube fa-3x" style="color: #ED3833;"></i></a>
+      </p>
+  </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+    if ($navbarBurgers.length > 0) {
+      $navbarBurgers.forEach( el => {
+          el.addEventListener('click', () => {
+
+      
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+  }
+
+});
+
+</script>
+
+</body>
+</html>
