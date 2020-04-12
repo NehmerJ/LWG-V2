@@ -156,8 +156,6 @@ p a:hover {
   color: white;
 }
 
-
-
 @media only screen and (max-width: 700px) {
 	.card {
 		display: block;
@@ -178,6 +176,12 @@ p a:hover {
 	.topSection {
 		background-image: url(../images/black-pen-on-white-writing-spring-notebook-between-white-163187.jpg);
 		
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.img-1, .img-3 {
+		height: 400px;
 	}
 }
 
