@@ -7,7 +7,6 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
 	<link rel="stylesheet" type="text/css" href="CSS/takeaction.css">
 	<script src="https://kit.fontawesome.com/e0990894da.js" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="javascript/takeaction.js"></script>
 </head>
 <body>
 
@@ -98,9 +97,102 @@
 				<br>
 				45 min
 			</p>
-			<form action="" method="POST">
-				<button class="customBtn" type="submit">Book Now</button>
-			</form>
+				<button class="customBtn" type="submit">Schedule</button>
+				<div id="myModal" class="modal">
+					<div class="modal-content">
+						<div class="my-container">
+
+						  <div class="calendar-container">
+
+						    <header>
+						      
+						      <div class="day">18</div>
+						      <div class="month">August</div>
+
+						    </header>
+
+						    <table class="calendar">
+						      
+						      <thead>
+
+						        <tr>
+
+						          <td>Mon</td>
+						          <td>Tue</td>
+						          <td>Wed</td>
+						          <td>Thu</td>
+						          <td>Fri</td>
+						          <td>Sat</td>
+						          <td>Sun</td>
+
+						        </tr>
+
+						      </thead>
+
+						      <tbody>
+
+						        <tr>
+						          <td class="prev-month">29</td>
+						          <td class="prev-month">30</td>
+						          <td class="prev-month">31</td>
+						          <td class="one">1</td>
+						          <td class="two">2</td>
+						          <td class="three">3</td>
+						          <td class="four">4</td>
+						        </tr>
+
+						        <tr>
+						          <td class="five">5</td>
+						          <td class="six">6</td>
+						          <td class="seven">7</td>
+						          <td class="eight">8</td>
+						          <td class="nine">9</td>
+						          <td class="ten">10</td>
+						          <td class="eleven">11</td>
+						        </tr>
+
+						        <tr>
+						          <td class="twelve">12</td>
+						          <td class="thirteen">13</td>
+						          <td class="fourteen">14</td>
+						          <td class="fifteen">15</td>
+						          <td class="sixteen">16</td>
+						          <td class="seventeen">17</td>
+						          <td class="current-day eighteen">18</td>
+						        </tr>
+
+						        <tr>
+						          <td class="nineteen">19</td>
+						          <td class="twenty">20</td>
+						          <td class="twenty-one">21</td>
+						          <td class="twenty-two">22</td>
+						          <td class="twenty-three">23</td>
+						          <td class="twenty-four">24</td>
+						          <td class="twenty-five">25</td>
+						        </tr>
+
+						        <tr>
+						          <td class="twenty-six">26</td>
+						          <td class="twenty-seven">27</td>
+						          <td class="twenty-eight">28</td>
+						          <td class="twenty-nine">29</td>
+						          <td class="thirty">30</td>
+						          <td class="thirty-one">31</td>
+						          <td class="next-month">1</td>
+						        </tr>
+
+						      </tbody>
+
+						    </table>
+
+						    <div class="ring-left"></div>
+						    <div class="ring-right"></div>
+
+						  </div> <!-- end calendar-container -->
+
+						</div> <!-- end container -->
+					</div>
+				</div>
 		</div>
 	</div>
 	</article>
@@ -196,6 +288,8 @@
 });
 
 </script>
+
+<script src="javascript/takeaction.js"></script>
 
 </body>
 </html>
