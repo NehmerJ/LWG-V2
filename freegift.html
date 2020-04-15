@@ -79,9 +79,30 @@
 			"Accepting my righteousness"
 			And receive 21 verses for the next 21 days of what does God say about your identity in Christ Jesus! Memorize, meditate, apply!
 			<br><br>
-			<form method="POST">
 				<button class="btn" type="submit">Get Material</button>
-			</form>
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <form class="formStyle" method="post" action="https://formspree.io/xeqlgwop">
+              <fieldset>
+                <label for="name">Name</label> <br>
+                <div class="control"> 
+                  <input type="text" id="name" placeholder="e.g. John Doe" name="name" required> <br> <br>
+                </div>
+                  <label for="email">Email</label> <br>
+                <div class="control">
+                  <input type="email" id="email" placeholder="e.g. johndoe@gmail.com" name="email" required><br> <br>
+                </div>
+                <label for="subject">Message</label>
+                <div class="control">
+                  <textarea id="message" rows="10" cols="10" placeholder="Message" name="message" required></textarea>
+                </div>
+                <br>
+                <button class="btn-2" type="submit">Contact Us</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
 		</h3>
   		<div class="column">
 		    <img src="images/01.jpg">
@@ -133,6 +154,7 @@
 });
 
 </script>
+<script src="javascript/freegift.js"></script>
 
 </body>
 </html>
