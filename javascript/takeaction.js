@@ -1,6 +1,17 @@
 var modal = document.querySelector("#myModal");
 var button = document.querySelector(".customBtn");
 var ch = document.querySelector(".day");
+var calendar = document.querySelector(".calendar-container > header");
+var btnOne = document.querySelector(".btn-1");
+var btnTwo = document.querySelector(".btn-2");
+var btnThree = document.querySelector(".btn-3");
+var btnFour = document.querySelector(".btn-4");
+var btnFive = document.querySelector(".btn-5");
+var btnSix = document.querySelector(".btn-6");
+var today= new Date();
+var date = today.getDate();
+var month =today.getMonth();
+var cm = document.querySelector(".month");
 
 var one = document.querySelector(".one");
 var two = document.querySelector(".two");
@@ -38,6 +49,64 @@ button.onclick = function() {
 	modal.style.display ="block";
 }
 
+cm = innerText = month;
+
+ch.innerText = date;
+
+btnOne.onclick = function() {
+	btnOne.classList.add("clicked");
+	btnTwo.classList.remove("clicked");
+	btnThree.classList.remove("clicked");
+	btnFour.classList.remove("clicked");
+	btnFive.classList.remove("clicked");
+	btnSix.classList.remove("clicked");
+}
+btnTwo.onclick = function() {
+	btnTwo.classList.add("clicked");
+	btnOne.classList.remove("clicked");
+	btnThree.classList.remove("clicked");
+	btnFour.classList.remove("clicked");
+	btnFive.classList.remove("clicked");
+	btnSix.classList.remove("clicked");
+}
+
+btnThree.onclick = function() {
+	btnThree.classList.add("clicked");
+	btnOne.classList.remove("clicked");
+	btnTwo.classList.remove("clicked");
+	btnFour.classList.remove("clicked");
+	btnFive.classList.remove("clicked");
+	btnSix.classList.remove("clicked");
+}
+
+btnFour.onclick = function() {
+	btnFour.classList.add("clicked");
+	btnOne.classList.remove("clicked");
+	btnTwo.classList.remove("clicked");
+	btnThree.classList.remove("clicked");
+	btnFive.classList.remove("clicked");
+	btnSix.classList.remove("clicked");
+}
+
+btnFive.onclick = function() {
+	btnFive.classList.add("clicked");
+	btnOne.classList.remove("clicked");
+	btnTwo.classList.remove("clicked");
+	btnThree.classList.remove("clicked");
+	btnFour.classList.remove("clicked");
+	btnSix.classList.remove("clicked");
+}
+
+btnSix.onclick = function() {
+	btnSix.classList.add("clicked");
+	btnOne.classList.remove("clicked");
+	btnTwo.classList.remove("clicked");
+	btnThree.classList.remove("clicked");
+	btnFour.classList.remove("clicked");
+	btnFive.classList.remove("clicked");
+	
+}
+
 // one.onclick = function() {
 // 	if(one.style.color !== "red") {
 // 		one.style.color = "red";
@@ -72,7 +141,13 @@ button.onclick = function() {
 // 		thirty.style.color = "#555";
 // 		// thirtyOne.style.color ="#555";
 // 		ch.innerText = "1";
-
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
 // 	}
 // }
 
@@ -110,6 +185,13 @@ button.onclick = function() {
 // 		thirty.style.color = "#555";
 // 		// thirtyOne.style.color = "#555";
 // 		ch.innerText = "2";
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
 // 	}
 // }
 
@@ -147,6 +229,13 @@ button.onclick = function() {
 // 		thirty.style.color = "#555";
 // 		thirtyOne.style.color ="#555";
 // 		ch.innerText = "3";
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
 // 	}
 // }
 
@@ -184,6 +273,13 @@ button.onclick = function() {
 // 		thirty.style.color = "#555";
 // 		// thirtyOne.style.color ="#555";
 // 		ch.innerText = "4";
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
 // 	}
 // }
 
@@ -221,6 +317,13 @@ button.onclick = function() {
 // 		thirty.style.color = "#555";
 // 		// thirtyOne.style.color ="#555";
 // 		ch.innerText = "5";
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
 // 	}
 // }
 
@@ -258,6 +361,13 @@ button.onclick = function() {
 // 		thirty.style.color = "#555";
 // 		// thirtyOne.style.color ="#555";
 // 		ch.innerText = "6";
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
 // 	}
 // }
 
@@ -295,6 +405,13 @@ button.onclick = function() {
 // 		thirty.style.color = "#555";
 // 		// thirtyOne.style.color = "#555";
 // 		ch.innerText = "7";
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
 // 	}
 // }
 
@@ -332,6 +449,13 @@ button.onclick = function() {
 // 		thirty.style.color = "#555";
 // 		// thirtyOne.style.color = "#555";
 // 		ch.innerText = "8";
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
 // 	}
 // }
 
@@ -369,6 +493,13 @@ button.onclick = function() {
 // 		twentyNine.style.color = "#555";
 // 		thirty.style.color = "#555";
 // 		ch.innerText = "9";
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
 // 	}
 // }
 
@@ -406,6 +537,13 @@ button.onclick = function() {
 // 		twentyNine.style.color = "#555";
 // 		thirty.style.color = "#555";
 // 		ch.innerText = "10";
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
 // 	}
 // }
 
@@ -443,6 +581,13 @@ button.onclick = function() {
 // 		twentyNine.style.color = "#555";
 // 		thirty.style.color = "#555";
 // 		ch.innerText = "11";
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
 // 	}
 // }
 
@@ -480,6 +625,13 @@ button.onclick = function() {
 // 		twentyNine.style.color = "#555";
 // 		thirty.style.color = "#555";
 // 		ch.innerText = "12";
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
 // 	}
 // }
 
@@ -517,6 +669,13 @@ button.onclick = function() {
 // 		twentyNine.style.color = "#555";
 // 		thirty.style.color = "#555";
 // 		ch.innerText = "13";
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
 // 	}
 // }
 
@@ -554,45 +713,60 @@ button.onclick = function() {
 // 		twentyNine.style.color = "#555";
 // 		thirty.style.color = "#555";
 // 		ch.innerText = "14";
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
 // 	}
 // }
 
-fifteen.onclick = function() {
-	if(fifteen.style.color !== "red") {
-		fifteen.style.color = "red";
-		one.style.color = "#555";
-		two.style.color = "#555";
-		three.style.color = "#555";
-		four.style.color = "#555";
-		five.style.color = "#555";
-		six.style.color = "#555";
-		seven.style.color = "#555";
-		eight.style.color = "#555";
-		nine.style.color = "#555";
-		ten.style.color = "#555";
-		eleven.style.color = "#555";
-		twelve.style.color = "#555";
-		thirteen.style.color = "#555";
-		fourteen.style.color = "#555";
-		// thirtyOne.style.color = "#555";
-		sixteen.style.color = "#555";
-		seventeen.style.color = "#555";
-		eighteen.style.color = "#555";
-		nineteen.style.color = "#555";
-		twenty.style.color = "#555";
-		twentyOne.style.color = "#555";
-		twentyTwo.style.color = "#555";
-		twentyThree.style.color = "#555";
-		twentyFour.style.color = "#555";
-		twentyFive.style.color = "#555";
-		twentySix.style.color = "#555";
-		twentySeven.style.color = "#555";
-		twentyEight.style.color = "#555";
-		twentyNine.style.color = "#555";
-		thirty.style.color = "#555";
-		ch.innerText = "15";
-	}
-}
+// fifteen.onclick = function() {
+// 	if(fifteen.style.color !== "red") {
+// 		fifteen.style.color = "red";
+// 		one.style.color = "#555";
+// 		two.style.color = "#555";
+// 		three.style.color = "#555";
+// 		four.style.color = "#555";
+// 		five.style.color = "#555";
+// 		six.style.color = "#555";
+// 		seven.style.color = "#555";
+// 		eight.style.color = "#555";
+// 		nine.style.color = "#555";
+// 		ten.style.color = "#555";
+// 		eleven.style.color = "#555";
+// 		twelve.style.color = "#555";
+// 		thirteen.style.color = "#555";
+// 		fourteen.style.color = "#555";
+// 		// thirtyOne.style.color = "#555";
+// 		sixteen.style.color = "#555";
+// 		seventeen.style.color = "#555";
+// 		eighteen.style.color = "#555";
+// 		nineteen.style.color = "#555";
+// 		twenty.style.color = "#555";
+// 		twentyOne.style.color = "#555";
+// 		twentyTwo.style.color = "#555";
+// 		twentyThree.style.color = "#555";
+// 		twentyFour.style.color = "#555";
+// 		twentyFive.style.color = "#555";
+// 		twentySix.style.color = "#555";
+// 		twentySeven.style.color = "#555";
+// 		twentyEight.style.color = "#555";
+// 		twentyNine.style.color = "#555";
+// 		thirty.style.color = "#555";
+// 		ch.innerText = "15";
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
+
+// 	}
+// }
 
 sixteen.onclick = function() {
 	if(sixteen.style.color !== "red") {
@@ -628,6 +802,13 @@ sixteen.onclick = function() {
 		twentyNine.style.color = "#555";
 		thirty.style.color = "#555";
 		ch.innerText = "16";
+		calendar.style.textAlign ="left";
+		btnOne.style.display = "block";
+		btnTwo.style.display = "block";
+		btnThree.style.display = "block";
+		btnFour.style.display = "block";
+		btnFive.style.display = "block";
+		btnSix.style.display = "block";
 	}
 }
 
@@ -665,6 +846,13 @@ seventeen.onclick = function() {
 		twentyNine.style.color = "#555";
 		thirty.style.color = "#555";
 		ch.innerText = "17";
+		calendar.style.textAlign ="left";
+		btnOne.style.display = "block";
+		btnTwo.style.display = "block";
+		btnThree.style.display = "block";
+		btnFour.style.display = "block";
+		btnFive.style.display = "block";
+		btnSix.style.display = "block";
 	}
 }
 
@@ -702,6 +890,13 @@ eighteen.onclick = function() {
 		twentyNine.style.color = "#555";
 		thirty.style.color = "#555";
 		ch.innerText = "18";
+		calendar.style.textAlign ="left";
+		btnOne.style.display = "block";
+		btnTwo.style.display = "block";
+		btnThree.style.display = "block";
+		btnFour.style.display = "block";
+		btnFive.style.display = "block";
+		btnSix.style.display = "block";
 	}
 }
 
@@ -739,6 +934,13 @@ nineteen.onclick = function() {
 		twentyNine.style.color = "#555";
 		thirty.style.color = "#555";
 		ch.innerText = "19";
+		calendar.style.textAlign ="left";
+		btnOne.style.display = "block";
+		btnTwo.style.display = "block";
+		btnThree.style.display = "block";
+		btnFour.style.display = "block";
+		btnFive.style.display = "block";
+		btnSix.style.display = "block";
 	}
 }
 
@@ -776,6 +978,13 @@ twenty.onclick = function() {
 		twentyNine.style.color = "#555";
 		thirty.style.color = "#555";
 		ch.innerText = "20";
+		calendar.style.textAlign ="left";
+		btnOne.style.display = "block";
+		btnTwo.style.display = "block";
+		btnThree.style.display = "block";
+		btnFour.style.display = "block";
+		btnFive.style.display = "block";
+		btnSix.style.display = "block";
 	}
 }
 
@@ -813,6 +1022,13 @@ twentyOne.onclick = function() {
 		twentyNine.style.color = "#555";
 		thirty.style.color = "#555";
 		ch.innerText = "21";
+		calendar.style.textAlign ="left";
+		btnOne.style.display = "block";
+		btnTwo.style.display = "block";
+		btnThree.style.display = "block";
+		btnFour.style.display = "block";
+		btnFive.style.display = "block";
+		btnSix.style.display = "block";
 	}
 }
 
@@ -850,6 +1066,13 @@ twentyTwo.onclick = function() {
 		twentyNine.style.color = "#555";
 		thirty.style.color = "#555";
 		ch.innerText = "22";
+		calendar.style.textAlign ="left";
+		btnOne.style.display = "block";
+		btnTwo.style.display = "block";
+		btnThree.style.display = "block";
+		btnFour.style.display = "block";
+		btnFive.style.display = "block";
+		btnSix.style.display = "block";
 	}
 }
 
@@ -887,6 +1110,13 @@ twentyThree.onclick = function() {
 		twentyNine.style.color = "#555";
 		thirty.style.color = "#555";
 		ch.innerText = "23";
+		calendar.style.textAlign ="left";
+		btnOne.style.display = "block";
+		btnTwo.style.display = "block";
+		btnThree.style.display = "block";
+		btnFour.style.display = "block";
+		btnFive.style.display = "block";
+		btnSix.style.display = "block";
 	}
 }
 
@@ -924,6 +1154,13 @@ twentyFour.onclick = function() {
 		twentyNine.style.color = "#555";
 		thirty.style.color = "#555";
 		ch.innerText = "24";
+		calendar.style.textAlign ="left";
+		btnOne.style.display = "block";
+		btnTwo.style.display = "block";
+		btnThree.style.display = "block";
+		btnFour.style.display = "block";
+		btnFive.style.display = "block";
+		btnSix.style.display = "block";
 	}
 }
 
@@ -961,6 +1198,13 @@ twentyFive.onclick = function() {
 		twentyNine.style.color = "#555";
 		thirty.style.color = "#555";
 		ch.innerText = "25";
+		calendar.style.textAlign ="left";
+		btnOne.style.display = "block";
+		btnTwo.style.display = "block";
+		btnThree.style.display = "block";
+		btnFour.style.display = "block";
+		btnFive.style.display = "block";
+		btnSix.style.display = "block";
 	}
 }
 
@@ -998,6 +1242,13 @@ twentySix.onclick = function() {
 		twentyNine.style.color = "#555";
 		thirty.style.color = "#555";
 		ch.innerText = "26";
+		calendar.style.textAlign ="left";
+		btnOne.style.display = "block";
+		btnTwo.style.display = "block";
+		btnThree.style.display = "block";
+		btnFour.style.display = "block";
+		btnFive.style.display = "block";
+		btnSix.style.display = "block";
 	}
 }
 
@@ -1035,6 +1286,13 @@ twentySeven.onclick = function() {
 		twentyNine.style.color = "#555";
 		thirty.style.color = "#555";
 		ch.innerText = "27";
+		calendar.style.textAlign ="left";
+		btnOne.style.display = "block";
+		btnTwo.style.display = "block";
+		btnThree.style.display = "block";
+		btnFour.style.display = "block";
+		btnFive.style.display = "block";
+		btnSix.style.display = "block";
 	}
 }
 
@@ -1072,6 +1330,13 @@ twentyEight.onclick = function() {
 		twentyNine.style.color = "#555";
 		thirty.style.color = "#555";
 		ch.innerText = "28";
+		calendar.style.textAlign ="left";
+		btnOne.style.display = "block";
+		btnTwo.style.display = "block";
+		btnThree.style.display = "block";
+		btnFour.style.display = "block";
+		btnFive.style.display = "block";
+		btnSix.style.display = "block";
 	}
 }
 
@@ -1109,6 +1374,13 @@ twentyNine.onclick = function() {
 		thirty.style.color = "#555";
 		// thirtyOne.style.color = "#555";
 		ch.innerText = "29";
+		calendar.style.textAlign ="left";
+		btnOne.style.display = "block";
+		btnTwo.style.display = "block";
+		btnThree.style.display = "block";
+		btnFour.style.display = "block";
+		btnFive.style.display = "block";
+		btnSix.style.display = "block";
 	}
 }
 
@@ -1146,6 +1418,13 @@ thirty.onclick = function() {
 		twentyNine.style.color = "#555";
 		// thirtyOne.style.color = "#555";
 		ch.innerText = "30";
+		calendar.style.textAlign ="left";
+		btnOne.style.display = "block";
+		btnTwo.style.display = "block";
+		btnThree.style.display = "block";
+		btnFour.style.display = "block";
+		btnFive.style.display = "block";
+		btnSix.style.display = "block";
 	}
 }
 
@@ -1183,6 +1462,13 @@ thirty.onclick = function() {
 // 		twentyNine.style.color = "#555";
 // 		thirty.style.color = "#555";
 // 		ch.innerText = "31";
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
 // 	}
 // }
 
