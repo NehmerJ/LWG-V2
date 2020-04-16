@@ -12,6 +12,11 @@ var today= new Date();
 var date = today.getDate();
 var month =today.getMonth();
 var cm = document.querySelector(".month");
+var modalTwo = document.querySelector(".modal-two-content");
+var container = document.querySelector(".calendar-container");
+var previous = document.querySelector(".previous");
+var next = document.querySelector(".next");
+var message = document.querySelector(".textarea");
 
 var one = document.querySelector(".one");
 var two = document.querySelector(".two");
@@ -49,6 +54,16 @@ button.onclick = function() {
 	modal.style.display ="block";
 }
 
+previous.onclick = function() {
+	modalTwo.style.display = "none";
+	container.style.display = "block";
+}
+
+next.onclick = function() {
+	modalTwo.style.display =" block";
+	container.style.display = "none";
+}
+
 cm = innerText = month;
 
 ch.innerText = date;
@@ -60,6 +75,8 @@ btnOne.onclick = function() {
 	btnFour.classList.remove("clicked");
 	btnFive.classList.remove("clicked");
 	btnSix.classList.remove("clicked");
+	next.style.display = "block";
+	message.value = "I would like to schedule a meeting for 9:00 am";
 }
 btnTwo.onclick = function() {
 	btnTwo.classList.add("clicked");
@@ -68,6 +85,8 @@ btnTwo.onclick = function() {
 	btnFour.classList.remove("clicked");
 	btnFive.classList.remove("clicked");
 	btnSix.classList.remove("clicked");
+	next.style.display = "block";
+	message.value = "I would like to schedule a meeting for 10:00 am";
 }
 
 btnThree.onclick = function() {
@@ -77,6 +96,8 @@ btnThree.onclick = function() {
 	btnFour.classList.remove("clicked");
 	btnFive.classList.remove("clicked");
 	btnSix.classList.remove("clicked");
+	next.style.display = "block";
+	message.value = "I would like to schedule a meeting for 11:00 am";
 }
 
 btnFour.onclick = function() {
@@ -86,6 +107,8 @@ btnFour.onclick = function() {
 	btnThree.classList.remove("clicked");
 	btnFive.classList.remove("clicked");
 	btnSix.classList.remove("clicked");
+	next.style.display = "block";
+	message.value = "I would like to schedule a meeting for 3:00 pm";
 }
 
 btnFive.onclick = function() {
@@ -95,6 +118,8 @@ btnFive.onclick = function() {
 	btnThree.classList.remove("clicked");
 	btnFour.classList.remove("clicked");
 	btnSix.classList.remove("clicked");
+	next.style.display = "block";
+	message.value = "I would like to schedule a meeting for 4:00 pm";
 }
 
 btnSix.onclick = function() {
@@ -104,6 +129,8 @@ btnSix.onclick = function() {
 	btnThree.classList.remove("clicked");
 	btnFour.classList.remove("clicked");
 	btnFive.classList.remove("clicked");
+	next.style.display = "block";
+	message.value = "I would like to schedule a meeting for 5:00 pm";
 	
 }
 
