@@ -49,6 +49,19 @@ var twentyEight = document.querySelector(".twenty-eight");
 var twentyNine = document.querySelector(".twenty-nine");
 var thirty = document.querySelector(".thirty");
 // var thirtyOne = document.querySelector(".thirty-one");
+// var nineAm = "I would like to schedule a meeting for 9:00 am on April ";
+// var tenAm = "I would like to schedule a meeting for 10:00 am on April ";
+// var elvenAm = "I would like to schedule a meeting for 11:00 am on April ";
+// var threePm = "I would like to schedule a meeting for 3:00 pm on April ";
+// var fourPm = "I would like to schedule a meeting for 4:00 pm on April ";
+// var fivePm = "I would like to schedule a meeting for 5:00 pm on April ";
+// var text = "17th";
+// var string1 = message.value = nineAm + text;
+// var string2 = message.value = tenAm + text;
+// var string3 = message.value = elevenAm + text;
+// var string4 = message.value = threeAm + text;
+// var string5 = message.value = fourAm + text;
+// var string6 = message.value = fiveAm + text;
 
 button.onclick = function() {
 	modal.style.display ="block";
@@ -68,6 +81,7 @@ cm = innerText = month;
 
 ch.innerText = date;
 
+
 btnOne.onclick = function() {
 	btnOne.classList.add("clicked");
 	btnTwo.classList.remove("clicked");
@@ -76,7 +90,6 @@ btnOne.onclick = function() {
 	btnFive.classList.remove("clicked");
 	btnSix.classList.remove("clicked");
 	next.style.display = "block";
-	message.value = "I would like to schedule a meeting for 9:00 am";
 }
 btnTwo.onclick = function() {
 	btnTwo.classList.add("clicked");
@@ -86,7 +99,6 @@ btnTwo.onclick = function() {
 	btnFive.classList.remove("clicked");
 	btnSix.classList.remove("clicked");
 	next.style.display = "block";
-	message.value = "I would like to schedule a meeting for 10:00 am";
 }
 
 btnThree.onclick = function() {
@@ -97,7 +109,6 @@ btnThree.onclick = function() {
 	btnFive.classList.remove("clicked");
 	btnSix.classList.remove("clicked");
 	next.style.display = "block";
-	message.value = "I would like to schedule a meeting for 11:00 am";
 }
 
 btnFour.onclick = function() {
@@ -108,7 +119,6 @@ btnFour.onclick = function() {
 	btnFive.classList.remove("clicked");
 	btnSix.classList.remove("clicked");
 	next.style.display = "block";
-	message.value = "I would like to schedule a meeting for 3:00 pm";
 }
 
 btnFive.onclick = function() {
@@ -119,7 +129,6 @@ btnFive.onclick = function() {
 	btnFour.classList.remove("clicked");
 	btnSix.classList.remove("clicked");
 	next.style.display = "block";
-	message.value = "I would like to schedule a meeting for 4:00 pm";
 }
 
 btnSix.onclick = function() {
@@ -130,7 +139,6 @@ btnSix.onclick = function() {
 	btnFour.classList.remove("clicked");
 	btnFive.classList.remove("clicked");
 	next.style.display = "block";
-	message.value = "I would like to schedule a meeting for 5:00 pm";
 	
 }
 
@@ -839,49 +847,49 @@ btnSix.onclick = function() {
 // 	}
 // }
 
-seventeen.onclick = function() {
-	if(seventeen.style.color !== "red") {
-		seventeen.style.color = "red";
-		one.style.color = "#555";
-		two.style.color = "#555";
-		three.style.color = "#555";
-		four.style.color = "#555";
-		five.style.color = "#555";
-		six.style.color = "#555";
-		seven.style.color = "#555";
-		eight.style.color = "#555";
-		nine.style.color = "#555";
-		ten.style.color = "#555";
-		eleven.style.color = "#555";
-		twelve.style.color = "#555";
-		thirteen.style.color = "#555";
-		fourteen.style.color = "#555";
-		fifteen.style.color = "#555";
-		sixteen.style.color = "#555";
-		// thirtyOne.style.color = "#555";
-		eighteen.style.color = "#555";
-		nineteen.style.color = "#555";
-		twenty.style.color = "#555";
-		twentyOne.style.color = "#555";
-		twentyTwo.style.color = "#555";
-		twentyThree.style.color = "#555";
-		twentyFour.style.color = "#555";
-		twentyFive.style.color = "#555";
-		twentySix.style.color = "#555";
-		twentySeven.style.color = "#555";
-		twentyEight.style.color = "#555";
-		twentyNine.style.color = "#555";
-		thirty.style.color = "#555";
-		ch.innerText = "17";
-		calendar.style.textAlign ="left";
-		btnOne.style.display = "block";
-		btnTwo.style.display = "block";
-		btnThree.style.display = "block";
-		btnFour.style.display = "block";
-		btnFive.style.display = "block";
-		btnSix.style.display = "block";
-	}
-}
+// seventeen.onclick = function() {
+// 	if(seventeen.style.color !== "red") {
+// 		seventeen.style.color = "red";
+// 		one.style.color = "#555";
+// 		two.style.color = "#555";
+// 		three.style.color = "#555";
+// 		four.style.color = "#555";
+// 		five.style.color = "#555";
+// 		six.style.color = "#555";
+// 		seven.style.color = "#555";
+// 		eight.style.color = "#555";
+// 		nine.style.color = "#555";
+// 		ten.style.color = "#555";
+// 		eleven.style.color = "#555";
+// 		twelve.style.color = "#555";
+// 		thirteen.style.color = "#555";
+// 		fourteen.style.color = "#555";
+// 		fifteen.style.color = "#555";
+// 		sixteen.style.color = "#555";
+// 		// thirtyOne.style.color = "#555";
+// 		eighteen.style.color = "#555";
+// 		nineteen.style.color = "#555";
+// 		twenty.style.color = "#555";
+// 		twentyOne.style.color = "#555";
+// 		twentyTwo.style.color = "#555";
+// 		twentyThree.style.color = "#555";
+// 		twentyFour.style.color = "#555";
+// 		twentyFive.style.color = "#555";
+// 		twentySix.style.color = "#555";
+// 		twentySeven.style.color = "#555";
+// 		twentyEight.style.color = "#555";
+// 		twentyNine.style.color = "#555";
+// 		thirty.style.color = "#555";
+// 		ch.innerText = "17";
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
+// 	}
+// }
 
 eighteen.onclick = function() {
 	if(eighteen.style.color !== "red") {
