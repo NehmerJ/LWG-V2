@@ -49,19 +49,8 @@ var twentyEight = document.querySelector(".twenty-eight");
 var twentyNine = document.querySelector(".twenty-nine");
 var thirty = document.querySelector(".thirty");
 // var thirtyOne = document.querySelector(".thirty-one");
-// var nineAm = "I would like to schedule a meeting for 9:00 am on April ";
-// var tenAm = "I would like to schedule a meeting for 10:00 am on April ";
-// var elvenAm = "I would like to schedule a meeting for 11:00 am on April ";
-// var threePm = "I would like to schedule a meeting for 3:00 pm on April ";
-// var fourPm = "I would like to schedule a meeting for 4:00 pm on April ";
-// var fivePm = "I would like to schedule a meeting for 5:00 pm on April ";
-// var text = "17th";
-// var string1 = message.value = nineAm + text;
-// var string2 = message.value = tenAm + text;
-// var string3 = message.value = elevenAm + text;
-// var string4 = message.value = threeAm + text;
-// var string5 = message.value = fourAm + text;
-// var string6 = message.value = fiveAm + text;
+
+
 
 button.onclick = function() {
 	modal.style.display ="block";
@@ -891,137 +880,137 @@ btnSix.onclick = function() {
 // 	}
 // }
 
-eighteen.onclick = function() {
-	if(eighteen.style.color !== "red") {
-		eighteen.style.color = "red";
-		one.style.color = "#555";
-		two.style.color = "#555";
-		three.style.color = "#555";
-		four.style.color = "#555";
-		five.style.color = "#555";
-		six.style.color = "#555";
-		seven.style.color = "#555";
-		eight.style.color = "#555";
-		nine.style.color = "#555";
-		ten.style.color = "#555";
-		eleven.style.color = "#555";
-		twelve.style.color = "#555";
-		thirteen.style.color = "#555";
-		fourteen.style.color = "#555";
-		fifteen.style.color = "#555";
-		sixteen.style.color = "#555";
-		seventeen.style.color = "#555";
-		// thirtyOne.style.color = "#555";
-		nineteen.style.color = "#555";
-		twenty.style.color = "#555";
-		twentyOne.style.color = "#555";
-		twentyTwo.style.color = "#555";
-		twentyThree.style.color = "#555";
-		twentyFour.style.color = "#555";
-		twentyFive.style.color = "#555";
-		twentySix.style.color = "#555";
-		twentySeven.style.color = "#555";
-		twentyEight.style.color = "#555";
-		twentyNine.style.color = "#555";
-		thirty.style.color = "#555";
-		ch.innerText = "18";
-		calendar.style.textAlign ="left";
-		btnOne.style.display = "block";
-		btnTwo.style.display = "block";
-		btnThree.style.display = "block";
-		btnFour.style.display = "block";
-		btnFive.style.display = "block";
-		btnSix.style.display = "block";
-	}
-}
+// eighteen.onclick = function() {
+// 	if(eighteen.style.color !== "red") {
+// 		eighteen.style.color = "red";
+// 		one.style.color = "#555";
+// 		two.style.color = "#555";
+// 		three.style.color = "#555";
+// 		four.style.color = "#555";
+// 		five.style.color = "#555";
+// 		six.style.color = "#555";
+// 		seven.style.color = "#555";
+// 		eight.style.color = "#555";
+// 		nine.style.color = "#555";
+// 		ten.style.color = "#555";
+// 		eleven.style.color = "#555";
+// 		twelve.style.color = "#555";
+// 		thirteen.style.color = "#555";
+// 		fourteen.style.color = "#555";
+// 		fifteen.style.color = "#555";
+// 		sixteen.style.color = "#555";
+// 		seventeen.style.color = "#555";
+// 		// thirtyOne.style.color = "#555";
+// 		nineteen.style.color = "#555";
+// 		twenty.style.color = "#555";
+// 		twentyOne.style.color = "#555";
+// 		twentyTwo.style.color = "#555";
+// 		twentyThree.style.color = "#555";
+// 		twentyFour.style.color = "#555";
+// 		twentyFive.style.color = "#555";
+// 		twentySix.style.color = "#555";
+// 		twentySeven.style.color = "#555";
+// 		twentyEight.style.color = "#555";
+// 		twentyNine.style.color = "#555";
+// 		thirty.style.color = "#555";
+// 		ch.innerText = "18";
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
+// 	}
+// }
 
-nineteen.onclick = function() {
-	if(nineteen.style.color !== "red") {
-		nineteen.style.color = "red";
-		one.style.color = "#555";
-		two.style.color = "#555";
-		three.style.color = "#555";
-		four.style.color = "#555";
-		five.style.color = "#555";
-		six.style.color = "#555";
-		seven.style.color = "#555";
-		eight.style.color = "#555";
-		nine.style.color = "#555";
-		ten.style.color = "#555";
-		eleven.style.color = "#555";
-		twelve.style.color = "#555";
-		thirteen.style.color = "#555";
-		fourteen.style.color = "#555";
-		fifteen.style.color = "#555";
-		sixteen.style.color = "#555";
-		seventeen.style.color = "#555";
-		eighteen.style.color = "#555";
-		// thirtyOne.style.color = "#555";
-		twenty.style.color = "#555";
-		twentyOne.style.color = "#555";
-		twentyTwo.style.color = "#555";
-		twentyThree.style.color = "#555";
-		twentyFour.style.color = "#555";
-		twentyFive.style.color = "#555";
-		twentySix.style.color = "#555";
-		twentySeven.style.color = "#555";
-		twentyEight.style.color = "#555";
-		twentyNine.style.color = "#555";
-		thirty.style.color = "#555";
-		ch.innerText = "19";
-		calendar.style.textAlign ="left";
-		btnOne.style.display = "block";
-		btnTwo.style.display = "block";
-		btnThree.style.display = "block";
-		btnFour.style.display = "block";
-		btnFive.style.display = "block";
-		btnSix.style.display = "block";
-	}
-}
+// nineteen.onclick = function() {
+// 	if(nineteen.style.color !== "red") {
+// 		nineteen.style.color = "red";
+// 		one.style.color = "#555";
+// 		two.style.color = "#555";
+// 		three.style.color = "#555";
+// 		four.style.color = "#555";
+// 		five.style.color = "#555";
+// 		six.style.color = "#555";
+// 		seven.style.color = "#555";
+// 		eight.style.color = "#555";
+// 		nine.style.color = "#555";
+// 		ten.style.color = "#555";
+// 		eleven.style.color = "#555";
+// 		twelve.style.color = "#555";
+// 		thirteen.style.color = "#555";
+// 		fourteen.style.color = "#555";
+// 		fifteen.style.color = "#555";
+// 		sixteen.style.color = "#555";
+// 		seventeen.style.color = "#555";
+// 		eighteen.style.color = "#555";
+// 		// thirtyOne.style.color = "#555";
+// 		twenty.style.color = "#555";
+// 		twentyOne.style.color = "#555";
+// 		twentyTwo.style.color = "#555";
+// 		twentyThree.style.color = "#555";
+// 		twentyFour.style.color = "#555";
+// 		twentyFive.style.color = "#555";
+// 		twentySix.style.color = "#555";
+// 		twentySeven.style.color = "#555";
+// 		twentyEight.style.color = "#555";
+// 		twentyNine.style.color = "#555";
+// 		thirty.style.color = "#555";
+// 		ch.innerText = "19";
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
+// 	}
+// }
 
-twenty.onclick = function() {
-	if(twenty.style.color !== "red") {
-		twenty.style.color = "red";
-		one.style.color = "#555";
-		two.style.color = "#555";
-		three.style.color = "#555";
-		four.style.color = "#555";
-		five.style.color = "#555";
-		six.style.color = "#555";
-		seven.style.color = "#555";
-		eight.style.color = "#555";
-		nine.style.color = "#555";
-		ten.style.color = "#555";
-		eleven.style.color = "#555";
-		twelve.style.color = "#555";
-		thirteen.style.color = "#555";
-		fourteen.style.color = "#555";
-		fifteen.style.color = "#555";
-		sixteen.style.color = "#555";
-		seventeen.style.color = "#555";
-		eighteen.style.color = "#555";
-		nineteen.style.color = "#555";
-		// thirtyOne.style.color = "#555";
-		twentyOne.style.color = "#555";
-		twentyTwo.style.color = "#555";
-		twentyThree.style.color = "#555";
-		twentyFour.style.color = "#555";
-		twentyFive.style.color = "#555";
-		twentySix.style.color = "#555";
-		twentySeven.style.color = "#555";
-		twentyEight.style.color = "#555";
-		twentyNine.style.color = "#555";
-		thirty.style.color = "#555";
-		ch.innerText = "20";
-		calendar.style.textAlign ="left";
-		btnOne.style.display = "block";
-		btnTwo.style.display = "block";
-		btnThree.style.display = "block";
-		btnFour.style.display = "block";
-		btnFive.style.display = "block";
-		btnSix.style.display = "block";
-	}
-}
+// twenty.onclick = function() {
+// 	if(twenty.style.color !== "red") {
+// 		twenty.style.color = "red";
+// 		one.style.color = "#555";
+// 		two.style.color = "#555";
+// 		three.style.color = "#555";
+// 		four.style.color = "#555";
+// 		five.style.color = "#555";
+// 		six.style.color = "#555";
+// 		seven.style.color = "#555";
+// 		eight.style.color = "#555";
+// 		nine.style.color = "#555";
+// 		ten.style.color = "#555";
+// 		eleven.style.color = "#555";
+// 		twelve.style.color = "#555";
+// 		thirteen.style.color = "#555";
+// 		fourteen.style.color = "#555";
+// 		fifteen.style.color = "#555";
+// 		sixteen.style.color = "#555";
+// 		seventeen.style.color = "#555";
+// 		eighteen.style.color = "#555";
+// 		nineteen.style.color = "#555";
+// 		// thirtyOne.style.color = "#555";
+// 		twentyOne.style.color = "#555";
+// 		twentyTwo.style.color = "#555";
+// 		twentyThree.style.color = "#555";
+// 		twentyFour.style.color = "#555";
+// 		twentyFive.style.color = "#555";
+// 		twentySix.style.color = "#555";
+// 		twentySeven.style.color = "#555";
+// 		twentyEight.style.color = "#555";
+// 		twentyNine.style.color = "#555";
+// 		thirty.style.color = "#555";
+// 		ch.innerText = "20";
+// 		calendar.style.textAlign ="left";
+// 		btnOne.style.display = "block";
+// 		btnTwo.style.display = "block";
+// 		btnThree.style.display = "block";
+// 		btnFour.style.display = "block";
+// 		btnFive.style.display = "block";
+// 		btnSix.style.display = "block";
+// 	}
+// }
 
 twentyOne.onclick = function() {
 	if(twentyOne.style.color !== "red") {
