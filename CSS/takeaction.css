@@ -172,7 +172,6 @@ td {
 .month {
 	font-size: 4em;
 	line-height: 1em;
-	text-transform: lowercase;
 }
 
 .calendar {
@@ -199,10 +198,78 @@ td {
 .calendar tbody td:hover {
 	background: #cacaca;
 	color: #fff;
+	cursor: pointer;
 }
 
 .current-day {
 	color: #e66b6b;
+}
+
+.active {
+	background-color: #f1f1f1;
+	color: #FF0000;
+}
+
+.timePicker {
+	background-color: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	padding: 5px 1rem;
+	font-family: 'Oswald', sans-serif;
+	position: absolute;
+	display: none;
+}
+
+.timePicker:hover {
+	background-color: #fff;
+	color: #333;
+	cursor: pointer;
+}
+
+.selected {
+	background-color: #fff;
+	color: #333;
+}
+
+.next {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	display: none;
+}
+
+.next:hover {
+	cursor: pointer;
+}
+
+.nine {
+	top: 4rem;
+	right: 9rem;
+}
+
+.ten {
+	top: 7rem;
+	right: 9rem;
+}
+
+.eleven {
+	top: 10rem;
+	right: 9rem;
+}
+
+.three {
+	top: 4rem;
+	right: 2rem;
+}
+
+.four {
+	top: 7rem;
+	right: 2rem;
+}
+
+.five {
+	top: 10rem;
+	right: 2rem;
 }
 
 .prev-month,
