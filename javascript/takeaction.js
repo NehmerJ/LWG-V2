@@ -25,7 +25,8 @@ month[9] = "October";
 month[10] = "November";
 month[11] = "December";
 var m = month[today.getMonth()];
-
+var selDate;
+var selTime;
 
 
 button.onclick = function() {
@@ -46,6 +47,8 @@ document.addEventListener("click", function() {
 	} else {
 		event.target.classList.add("active");
 		cd.innerText = event.target.textContent;
+		selDate = "I would like to schedule a meeting for the " + event.target.textContent + "th of " + m + " at ";
+		message.value = selDate;
 	}
 	var dates = document.querySelectorAll(".date");
 	for(var i = 0; i < dates.length; i++) {
@@ -73,6 +76,8 @@ document.addEventListener("click", (e) => {
 	} else {
 		e.target.classList.add("selected");
 		next.style.display = "block";
+		selTime = e.target.textContent;
+		message.value = selDate + selTime;
 	}
 
 	var time = document.querySelectorAll(".timePicker");
