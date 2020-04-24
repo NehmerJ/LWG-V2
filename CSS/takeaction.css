@@ -258,17 +258,17 @@ td {
 
 .nine {
 	top: 4rem;
-	right: 9rem;
+	right: 8rem;
 }
 
 .ten {
 	top: 7rem;
-	right: 9rem;
+	right: 8rem;
 }
 
 .eleven {
 	top: 10rem;
-	right: 9rem;
+	right: 8rem;
 }
 
 .three {
@@ -551,7 +551,7 @@ p a:hover {
 	}
 
 	.modal-two-content {
-		width: 90%;
+		width: 100%;
 	}
 }
 
